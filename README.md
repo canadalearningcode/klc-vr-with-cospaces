@@ -3,11 +3,9 @@
 
 ## Quick Links
 
-<!--Preview Instructor Notes: <a href="https://ladieslearningcode.github.io/klc-vr-with-cospaces/notes-en.html">ladieslearningcode.github.io/klc-vr-with-cospaces/notes-en.html</a>-->
+Preview Instructor Notes: https://ladieslearningcode.github.io/klc-vr-with-cospaces/notes-en.html
 
-Preview Slides: <a href="https://ladieslearningcode.github.io/klc-vr-with-cospaces/slides-en.html">ladieslearningcode.github.io/klc-vr-with-cospaces/slides-en.html</a>
-
-<!--Activity List: <a href="http://bit.ly/processing-activity-list">bit.ly/processing-activity-list</a>-->
+Preview Slides: https://ladieslearningcode.github.io/klc-vr-with-cospaces/slides-en.html
 
 ## Additional Resources (Optional)
 
