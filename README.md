@@ -7,7 +7,7 @@ Preview Instructor Notes: https://ladieslearningcode.github.io/klc-vr-with-cospa
 
 Preview 3-Hour Slides (ages 9-12): https://ladieslearningcode.github.io/klc-vr-with-cospaces/slides-en.html
 
-Preview 2-Hour Slides (ages 6-8): https://ladieslearningcode.github.io/klc-vr-with-cospaces/slides-2hours-en.html
+Preview 2-Hour Slides (ages 6-8): https://ladieslearningcode.github.io/klc-vr-with-cospaces/slides-en-2hours.html
 
 # ATTRIBUTIONS:
 
