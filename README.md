@@ -1,18 +1,13 @@
-# [TESTING]
+# English
 # Kids Learning Code: VR with CoSpaces
 
 ## Quick Links
 
 Preview Instructor Notes: https://ladieslearningcode.github.io/klc-vr-with-cospaces/notes-en.html
 
-Preview Slides: https://ladieslearningcode.github.io/klc-vr-with-cospaces/slides-en.html
+Preview 3-Hour Slides (ages 9-12): https://ladieslearningcode.github.io/klc-vr-with-cospaces/slides-en.html
 
-## Additional Resources (Optional)
-
-Unplugged Activities: <a href="http://bit.ly/unplugged-activities-doc">bit.ly/unplugged-activities-doc</a>
-
-Youth Facilitator / Instructor Handbook: <a href="http://bit.ly/youth-facilitator-handbook-doc">bit.ly/youth-facilitator-handbook-doc</a>
-
+Preview 2-Hour Slides (ages 6-8): https://ladieslearningcode.github.io/klc-vr-with-cospaces/slides-2hours-en.html
 
 # ATTRIBUTIONS:
 

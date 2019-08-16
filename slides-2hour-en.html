@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Kids Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="360">
+
+<!--Slide 1-->
+  <main>
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/klc-logo-stacked-white.png" alt="Ladies Learning Code logo">Welcome!</h1>
+
+      <div class="instructions">
+        <!-- ADD WIFI INFO HERE -->
+        <h2>Get <br>Connected</h2>
+        <p><strong>Wifi:</strong> Wifi Network</p>
+        <p><strong>Password:</strong> Wifi Password</p>
+        <hr>
+
+
+    </div>
+
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Slides created by <a href="http://christinatruong.com">Christina Truong</a> for <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+<!--Slide 2-->
+    <section class="slide intro">
+      <img class="logo" src="framework/img/klc-logo-white.png" alt="Ladies Learning Code logo">
+      <h1 class="heading-bg">
+        <span>Virtual Reality<br>
+        with CoSpaces</span>
+      </h1>
+
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23kidslearningcode&src=typd">#kidslearningcode</a></li>
+      </ul>
+<!--
+      <div class="sponsor">
+        <p>In partnership with<br> <img src="framework/img/telus-logo-white.svg" alt="Telus"></p>
+      </div>-->
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Content created by Kassandra Lenters &amp; Courtney Schreiter for <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+<!--Slide 3-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Introductions
+      </script>
+    </section>
+
+<!--Slide 4-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Table of Contents
+
+        <div class="table-of-contents"></div>
+
+          <!-- Intro + Example Projects + Guest Speaker (10am)
+
+        Project Ideation + Wireframing (10:15am)
+
+        Intro to HTML + CSS (10:45am)
+
+        Lunch (12:30pm)
+
+        Building time! (1:15pm)
+
+        Demos + Pushing Live (3:30pm) -->
+
+       </script>
+    </section>
+
+<!--Slide 5-->
+      <!-- Insert Agenda for the workshop -->
+    <section class= "slide" data-markdown>
+      <script type="text/template">
+        #Agenda
+
+        Intro to Virtual Reality
+
+        Creating in CoSpaces
+
+        Demos
+
+      </script>
+    </section>
+
+<!--Slide 6-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+       ![Coders Code Banner](framework/img/workshop/scroll2.png)
+         ## 1. ASK FOR HELP  <!-- .element: class="delayed" -->
+         ## 2. BE PRESENT  <!-- .element: class="delayed" -->
+         ## 3. TRY YOUR BEST!  <!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+<!--Slide 7-->
+    <section class="slide title" data-toc data-markdown>
+     <script type="text/template">
+       # What is Code?
+     </script>
+    </section>
+
+<!--Slide 8-->
+    <section class="slide" data-markdown>
+     <script type= "text/template">
+       #Code is..
+       ## A SET OF INSTRUCTIONS THAT TELLS THE COMPUTER WHAT TO DO.
+
+       <br>
+       ![Running robot gif](framework/img/workshop/runningrobot.gif)
+       ![Dancing robot gif](framework/img/workshop/dancingrobot.gif)
+       ![eating robot gif](framework/img/workshop/eatingrobot.gif)
+       ![Dancing robot gif](framework/img/workshop/dancingrobot2.gif)
+       ![Dancing robot gif](framework/img/workshop/bluerobot.gif)
+       ![Dancing robot gif](framework/img/workshop/partyrobot.gif)
+
+       <p> In code, we call a set of instructions an <strong style="color:#00a076;">algorithm</strong>.</p><!-- .element: class="delayed" -->
+
+     </script>
+    </section>
+
+<!--Slide 9-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Today's Project
+        ## We're learning how to create virtual reality with CoSpaces
+      </script>
+    </section>
+
+<!--Slide 10-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        #Today's Project
+
+        ![Example project of an outdoor space with a pond](framework/img/workshop/TodaysProject.gif)
+
+      </script>
+    </section>
+
+<!--Slide 11-->
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # What is Virtual Reality?
+      </script>
+    </section>
+
+<!--Slide 12-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Virtual Reality
+
+        * a world on the computer that you can explore
+        * it is not real, but it can feel real (sights and sounds provided by the computer)
+
+        ![Example of a simple VR project of the inside of a home](framework/img/workshop/computing.gif)
+        ![Example of a futuristic VR video game](framework/img/workshop/videogamesvr.gif)
+
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://giphy.com/gifs/art-tech-vr-8m71Fr1bVUsCI">Computing gif</a>
+            <a href="https://giphy.com/gifs/oculus-vr-virtual-reality-xUA7b7EHL2foKJmShG">Video Games VR gif</a>
+          </div>
+
+      </script>
+    </section>
+
+    <!--Slide 13 -->
+        <section class="slide" data-markdown>
+          <script type="text/template">
+            # Virtual Reality
+
+            * We create virtual worlds using code or programs
+            * We experience these worlds using VR headsets
+
+            ![Gif of a kitten typing on a keyboard](framework/img/workshop/laptop.gif)
+            ![Gif of a cat wearing a VR headset](framework/img/workshop/experience.gif)
+
+
+
+            ---
+            <div class="dropdown">
+              <button class="dropbtn">Attributions</button>
+              <div class="dropdown-content">
+                <a href="https://giphy.com/gifs/cat-kitten-computer-3oKIPnAiaMCws8nOsE">Laptop gif</a>
+                <a href="https://giphy.com/gifs/vr-experience-tCa6HqQGksjiU">Experience gif</a>
+
+              </div>
+
+          </script>
+        </section>
+
+        <!--Slide 14 -->
+            <section class="slide" data-markdown>
+              <script type="text/template">
+                # Virtual Reality (VR) vs Augmented Reality (AR)
+
+                * These sound similar, but are two different things
+                * VR creates seperate worlds that we can enter into
+                * AR brings virtual things (like characters) into our REAL world
+
+                ![Gif of someone playing Pokemon Go on their phone](framework/img/workshop/pokemongo.gif)
+                ![Gif of someone using a snapchat filter on their dog](framework/img/workshop/snapchat.gif)
+
+
+
+                ---
+                <div class="dropdown">
+                  <button class="dropbtn">Attributions</button>
+                  <div class="dropdown-content">
+                    <a href="https://giphy.com/gifs/xT8qBjz0WEGoHshbJm">Pokemon Go gif</a>
+                    <a href="https://giphy.com/gifs/9J7icdNWhe4jXLYYeZ">AR gif</a>
+
+                  </div>
+
+              </script>
+            </section>
+
+
+<!--Slide 15-->
+    <section class="slide title" data-toc data-markdown>
+      <script type="text/template">
+        # What is CoSpaces Edu?
+      </script>
+    </section>
+
+
+
+<!--Slide 16-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+      # CoSpaces
+      * Why CoSpaces?
+        * Free version
+        * Easy to create enviroments with building blocks
+        * Can add in code to bring the worlds to life
+      * ![Example house with a rocket on the front lawn](framework/img/workshop/rockethouse.jpg)
+
+        ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://www.arvrmagazine.com/what-kids-can-learn-from-building-virtual-reality/">Rocket House</a>
+          </div>
+
+      </script>
+    </section>
+
+    <!--Slide 17-->
+        <section class="slide title" data-toc data-markdown>
+            <script type="text/template">
+                  # What will your VR world include?
+                </script>
+              </section>
+
+  <!--Slide 18 -->
+            <section class="slide" data-markdown>
+                <script type="text/template">
+                    # Imagine your ideal VR world/space
+
+                    * What things do you see, hear, smell?
+                    * What are you doing in your space?
+                    * Are there other people in your space?
+                    * How does the space make you feel?
+                    * Take 5 minutes and write down or sketch what your space looks like
+                    * Your imagination is your limit!
+
+
+                  </script>
+              </section>
+
+    <!--Slide 19 -->
+        <section class="slide" data-markdown>
+          <script type="text/template">
+            # Getting Started
+
+            * Go to [https://cospaces.io/edu/](cospaces.io/edu/)
+
+            ![Homepage](framework/img/workshop/homepage.png)
+
+            * Choose a student account
+
+            ![StudentAccount](framework/img/workshop/studentaccount.png)
+
+            * Enter the class code provided by the instructor and follow the prompts to set up your account
+            * Choose Free Play
+
+            ![FreePlay](framework/img/workshop/freeplay.png)
+
+
+          </script>
+        </section>
+
+<!--Slide 20 -->
+      <section class="slide" data-markdown>
+            <script type="text/template">
+              # Choosing an Environment
+
+              * Choose a 3D environment
+
+              ![3DEnvironments](framework/img/workshop/3denviron.png)
+
+              * Click on Edit to choose from one of the preset environments
+
+              ![Tabs](framework/img/workshop/librarytab.png)
+
+
+              ![Environments](framework/img/workshop/environments.png)
+
+
+            </script>
+        </section>
+<!--I am here-->
+
+<!--Slide 21 -->
+        <section class="slide" data-markdown>
+            <script type="text/template">
+                # Moving around your environment
+
+                ##Let's practice these together:
+
+                1. Use the arrow keys to move around<!-- .element: class="delayed" -->
+                1. OR Rotate your view by clicking and dragging<!-- .element: class="delayed" -->
+                  * ![navigating space](framework/img/workshop/nav-cospaces-1.gif)<!-- .element: class="delayed" -->
+                1. Hold the spacebar WHILE clicking and dragging to move around<!-- .element: class="delayed" -->
+                  * ![navigating space](framework/img/workshop/nav-cospaces-2.gif)<!-- .element: class="delayed" -->
+                1. Scroll to zoom in and out<!-- .element: class="delayed" -->
+                  * ![navigating space](framework/img/workshop/nav-cospaces-3.gif)<!-- .element: class="delayed" -->
+
+
+              </script>
+          </section>
+
+
+<!--Slide 22 -->
+        <section class="slide" data-markdown>
+              <script type="text/template">
+                  # Adding People to our Space
+
+                  * Choose from one of the preset people - don't worry we can customize them somewhat - click and drag them into the space
+
+                  ![People](framework/img/workshop/people.png)
+
+
+                  * Click on your person for the menu that adjusts its position and size
+
+                  ![Adjust People Menu](framework/img/workshop/adjustpeople.png)
+
+                  * Right click to adjust what your character looks like (materials) and other cool features
+
+                  ![Customize People](framework/img/workshop/customizepeople.png)
+
+                  * Spend some time choosing and customizing a person for your space. (Try out the animation options when you right click!)
+
+
+              </script>
+          </section>
+
+<!--Slide 23 -->
+        <section class="slide" data-markdown>
+            <script type="text/template">
+              # Uploading Other Characters/Objects to our Space
+
+                * We can upload 3D characters and objects from the web as well! Choose upload, then 3D object and the web search.
+                  ![Upload](framework/img/workshop/upload.png)
+                * Type in something you are hoping to find
+                  ![WebSearch](framework/img/workshop/websearch.png)
+                * <strong>Important Note</strong> - These uploaded objects have very limited options for editing.
+
+              </script>
+          </section>
+
+<!--Slide 25-->
+        <section class="slide" data-markdown>
+          <script type="text/template">
+            #Create Your Virtual Reality world
+              STEPS:
+
+              * Make any changes to your character
+              * Try adding in additional elements
+                  * an animal
+                  * a nature element
+                  * a unique item created by you
+                  * additional characters
+                  * upload something from the web
+              * Make it animated! Make things/people speak <strong>(Hint - try right clicking on the character/object you want to animate)</strong>
+
+
+            </script>
+        </section>
+
+<!--Slide 24 -->
+  <section class="slide" data-markdown>
+      <script type="text/template">
+          # Stretch Goal: Creating Unique Objects in Cospaces
+          * You can combine objects together to create new and unique things
+          * The building blocks can be used alone or in combination to make almost anything!
+          * You can group items together by <strong>shift + clicking</strong> on the objects then type the letter<strong> G</strong>
+          * You can use ready-made objects like rocks from the nature category or you can try experimenting with the 'Building Blocks' menu
+
+          ![Building Blocks](framework/img/workshop/buildingblocks.png)
+
+          * Cool Tip - when an object is selected you can center it by pressing the letter <strong>V</strong>
+
+        </script>
+      </section>
+
+<!--Slide 26-->
+        <section class="slide title" data-markdown>
+          <script type="text/template">
+            #DEMOS
+          </script>
+        </section>
+
+<!--Slide 27 -->
+      <section class="slide" data-markdown>
+        <script type="text/template">
+          # Getting Ready to Demo!
+          * To see our space in VR we are going to use VR headsets and phones. We are going to use a QR Code to find our projects on the phones!
+          * First, on our projects on our laptops we need to go to the Share icon along the top right of our project.
+
+          ![Share](framework/img/workshop/share.png)
+
+          * Then you select <strong>Share link</strong> and a QR Code will be created
+
+          ![QRCode](framework/img/workshop/qrcode.png)
+
+        </script>
+      </section>
+
+
+<!--Slide 28 -->
+      <section class="slide" data-markdown>
+        <script type="text/template">
+          # Using VR Headsets with Cospaces
+
+          * On your phone you need to open the Cospaces app. Look for this logo
+
+          ![CoSpacesApp](framework/img/workshop/app.jpeg)
+
+          * Once the app is open you want to choose Scan QR Code at the bottom of the login screen
+
+          ![ScanQR](framework/img/workshop/scanqr.png)
+
+          * You may need to allow access to the camera. Click OK. Then aim your camera at the QR code on your laptop screen.
+
+          ![CameraAccess](framework/img/workshop/cameraaccess.png)
+
+          * Click play on your project once it loads then you need to select the VR icon from the bottom left corner
+
+          ![VRIcon](framework/img/workshop/vricon.png)
+
+          * Your screen should now have a split view
+
+          ![SplitView](framework/img/workshop/splitview.png)
+
+          * You can now place your phone in the VR headset
+
+          ![Headset](framework/img/workshop/headset.png)
+
+          </script>
+        </section>
+
+<!--Slide 29 -->
+      <section class="slide" data-markdown>
+        <script type="text/template">
+        # During Your Demo
+
+        *  If you make changes to your project while your project is open on the VR headsets you can only see these changes if you reset your project. To do this, aim your headset to the floor. A menu screen will appear, click on the word <strong>Menu</strong>
+
+        ![Vrmenu](framework/img/workshop/Vrmenu.png)
+
+        * Then you tilt your headset back up and click <strong>Play</strong>
+
+        ![Play](framework/img/workshop/clickplay.png)
+
+          </script>
+        </section>
+
+<!--last slide-->
+    <main>
+
+      <section class="slide" data-toc data-markdown>
+        <script type="text/template">
+          # Today I Learned...
+
+          <p><strong>I can</strong> create virtual reality spaces in CoSpaces</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> customize characters and objects to look how I imagine them</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> test and debug my project</p><!-- .element: class="delayed" -->
+          <p><strong>I can</strong> use CoSpaces to KEEP CREATING AND CODING!</p><!-- .element: class="delayed" -->
+
+        </script>
+      </section>
+
+<!--Slide 41-->
+    <!-- Last slide -->
+    <section class="slide last">
+      <h1>Thank you!</h1>
+      <h2 class="heading-bg">
+        <span>Virtual Reality <br>with CoSpaces</span>
+      </h2>
+
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23kidslearningcode&src=typd">#kidslearningcode</a></li>
+      </ul>
+
+      <p class="attribution">Slide presentation created by <a href="http://christinatruong.com">Christina Truong</a> based on <a href="https://github.com/LeaVerou/csss">Lea Verou's SlideShow</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+    </section>
+
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
