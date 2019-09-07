@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Jeunesse en programmation</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- S’occupe des préfixes CSS3 -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- Ouvre tous les liens dans une nouvelle fenêtre -->
+  <base target="_blank">
+</head>
+
+<!-- Durée / barre de progression : définissez la durée de la présentation avec « data-duration » en minutes. -->
+<body class="en" data-duration="360">
+
+
+  <main>
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        #Jeunesse en programmation : La réalité virtuelle avec CoSpaces
+
+        ##Notes de la formatrice
+
+        * <a href="#slide2" target="_self">Notes pour un atelier de 3 heures (9 à 12 ans)</a>
+        * <a href="#slide3" target="_self">Notes pour un atelier de 2 heures (6 à 8 ans)</a>
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        #Notes de la formatrice (atelier pour les 9 à 12 ans)
+
+        #Jeunesse en programmation : La réalité virtuelle avec CoSpaces
+
+        <br>
+        ##Utiliser CoSpaces
+
+        CoSpaces Edu est une plateforme pédagogique permettant aux élèves et aux enseignantes de créer des environnements 3D, de les animer avec du code (des blocs de programmation) et de les explorer avec la technologie de réalité virtuelle ou de réalité augmentée. Durant cet atelier, vos projets seront sauvegardés en ligne à l'adresse <a href="https://cospaces.io/edu/">cospaces.io/edu</a>.
+
+        <br>
+        ##Créer un compte pour enseignant dans CoSpaces
+
+        Vous devrez créer un compte pour enseignant qui sera propre à votre section ou à votre Code Mobile. Allez à l'adresse <a href="https://cospaces.io/edu/">cospaces.io/edu</a>.
+
+        <img src="framework/img/workshop/home-page.png" alt="diapositive">
+
+        Créez un compte pour enseignant et suivez les étapes à l’écran (vous pouvez aussi vous connecter avec Google à l'aide de l’adresse de courriel de votre section ou de la Code Mobile).
+
+        **S’il y a déjà un compte créé pour votre section ou votre Code Mobile, il vous suffit de vous connecter avec les bons identifiants.
+
+        <br>
+        ##Effacer les anciens élèves
+        Assurez-vous d’effacer les anciens élèves de votre compte pour enseignant avant chaque atelier, car les comptes gratuits n'acceptent qu’un maximum de 30 utilisateurs. Lorsque vous aurez réussi à vous connecter à votre compte CoSpaces, allez dans <strong>Manage Users</strong>. Vous devrez sélectionner tous les élèves avec la case en haut, puis aller dans <strong>Actions</strong> et sélectionner <strong>Remove from license plan</strong>.
+
+        <img src="framework/img/workshop/removestudents.png" alt="diapositive">
+
+        <br>
+        ##Premiers pas avec CoSpaces
+        Consultez les diapositives et les notes et assurez-vous d’être à l’aise avec l’interface de CoSpaces. S’il n’y a pas encore de projet dans la section <strong>My CoSpaces</strong> de votre compte pour enseignant, prenez quelques instants pour créer un petit espace et y ajouter des personnages et des objets. Si vous ne voyez que le projet « Welcome to CoSpaces Edu », vous devrez en créer un nouveau.
+
+        <img src="framework/img/workshop/simplespace.png" alt="diapositive">
+
+        Vous ne pouvez qu'avoir un seul « espace » ou projet à la fois. Toutefois, chaque espace peut contenir plusieurs scènes. Si vous avez déjà créé un espace ou un projet, vous pouvez y ajouter une nouvelle scène. Pour ce faire, ouvrez le projet et cliquez sur l’icône de scène en haut à gauche de l’écran. Lorsque vous aurez cliqué sur cette icône, vous pourrez ajouter une nouvelle scène en bas.
+
+        <img src="framework/img/workshop/sceneicon.png" alt="diapositive">
+
+        <img src="framework/img/workshop/newscene.png" alt="diapositive">
+
+        <br>
+        ##Configurer une classe dans CoSpaces
+        Vous devrez aussi créer une classe pour vos élèves. Allez dans <strong>My Classes</strong> et créez une classe.
+
+        <img src="framework/img/workshop/createclass.png" alt="diapositive">
+
+        Un code de classe s'affichera. Notez-le bien, car vous devrez le fournir aux élèves lorsqu’ils se connecteront à CoSpaces. Vous pourrez le consulter de nouveau en sélectionnant la classe; le code de la classe s'affichera à droite de l’écran.
+
+        <img src="framework/img/workshop/classcode.png" alt="diapositive">
+
+        Si vous avez déjà créé une classe, assurez-vous qu’il n’y a pas d’élèves inscrits en sélectionnant <strong>Students</strong>. La classe devrait afficher un message indiquant qu’il n’y a pas encore d’élève inscrit.<br><br> *S’il y a encore des élèves, effacez les anciens élèves en suivant les consignes précédentes.
+
+        <img src="framework/img/workshop/nostudents.png" alt="diapositive">
+
+        <br>
+        ##Configurer et utiliser les visionneuses de réalité virtuelle
+
+        Lisez bien les diapositives 27 à 29 pour configurer les visionneuses de réalité virtuelle convenablement. Durant la rencontre avec les mentores, faites le processus de préparation des visionneuses et des projets avec elles. Il est essentiel que tout le monde soit à l'aise avec le processus afin que les démos se passent bien. Les apprenants partageront des visionneuses de RV pendant les démos. Les mentores aideront les apprenants à utiliser les visionneuses et les codes QR pour trouver les projets afin d’optimiser le temps requis pour les démos.
+
+        Si vous utilisez d'autres visionneuses de réalité virtuelle que celles des sections et des Code Mobiles (par exemple, si un apprenant apporte la sienne), n’oubliez pas que les visionneuses et les casques de réalité virtuelle ne fonctionnent pas tous de la même façon. Si les autres visionneuses n’ont pas de bouton « clic », elles ne pourront fonctionner complètement avec les projets réalisés durant l'atelier.
+
+        <strong>Important</strong> - Les visionneuses de réalité virtuelle peuvent causer des nausées. Si les apprenants éprouvent un malaise durant le processus, dites-leur de faire une démonstration de leur projet sans la visionneuse et le mode d’écran divisé. Sélectionnez l’icône dans le cercle bleu et faites bouger le téléphone.
+
+        <img src="framework/img/workshop/notvricon.png" alt="diapositive">
+
+        <strong>Important</strong> - Si vous avez des problèmes avec les projets des élèves, demandez-leur de se reconnecter et de retourner dans leurs projets. Cette procédure règle la plupart des problèmes. Il est possible que vous deviez vous reconnecter plusieurs fois.
+
+        <br>
+        ##Ordre du jour
+
+        ![Icône intro](framework/img/workshop/intro-icon2.png) Présentation (15 minutes)
+
+        ![Icône code](framework/img/workshop/code-icon2.png) Programmation en groupe (30 minutes)
+
+        ![Icône ordinateur](framework/img/workshop/laptop-icon2.png) Séance de travail et démonstrations (60 minutes)
+
+        ![Icône code](framework/img/workshop/code-icon2.png) Programmation en groupe (15 minutes)
+
+        ![Icône ordinateur](framework/img/workshop/laptop-icon2.png) Séance de travail et démonstrations (60 minutes)
+
+        *<strong>Remarque pour les Code Mobiles</strong> - Si vous faites cet atelier en 2 heures, les parties « Séance de travail et démonstrations » auront une durée de 30 minutes plutôt que de 60 minutes.
+
+        <br>
+        ###Diapositives d’introduction
+
+        <table style="font-size:2rem;">
+            <tr>
+              <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Diapositive</strong></td>
+              <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/3_fr.png" alt="diapositive"></td>
+              <td> Maintenant, j'aimerais vous présenter des personnes indispensables à l'atelier : les mentores!
+              <br>
+              <i>Demandez aux mentores de venir vous rejoindre à l'avant de la classe. Elles pourront se présenter en disant leur nom et leur site ou jeu préféré.</i>
+              <br><br>
+              Les mentores seront là pour t’aider si tu as des problèmes. N'hésite pas à leur poser des questions ou à leur montrer ton super projet! </td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/5_fr.png" alt="diapositive"></td>
+              <td> Les apprenants créeront des mondes de réalité virtuelle et les regarderont dans les visionneuses. Ensuite, ils ajouteront du code à leurs projets et les essaieront encore.</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/6_fr.png" alt="diapositive"></td>
+              <td>
+                <ol>
+                    <li><strong>Demande de l'aide</strong> : Si tu as de la difficulté, travaille avec la personne à côté de toi ou lève la main pour demander à l'enseignante ou à une des mentores de t’aider.
+                    <li><strong>Sois présent</strong> : Nous aimerions que tu apprennes beaucoup de choses pendant l'atelier. C’est pourquoi nous voulons que tu respectes les consignes et que tu suives pendant les activités.
+                    <li><strong>Fais de ton mieux</strong> : Même les meilleurs programmeurs ont parfois de la difficulté. Nous ne nous attendons pas à ce que tout soit parfait. Tu n'as qu’à faire de ton mieux. Tu ne dois pas avoir peur d'essayer des choses et de faire des erreurs!</td>
+                  </ol>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/7_fr.png" alt="diapositive"></td>
+              <td> (Écoutez 2-3 réponses)</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/8_fr.png" alt="diapositive"></td>
+              <td> (Le moment idéal pour faire l'activité hors ligne « Le robot ».)</td>
+            </tr>
+
+            <tr>
+              <td><img src="framework/img/workshop/slides/9_fr.png" alt="diapositive"></td>
+              <td> Qui a déjà entendu parler de CoSpaces ou qui l'a déjà utilisé?</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/10_fr.png" alt="diapositive"></td>
+              <td> Aujourd’hui, nous créerons un monde de réalité virtuelle. Voici un exemple d’un monde que tu pourrais créer!</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/11_fr.png" alt="diapositive"></td>
+              <td> (Écoutez 2-3 réponses)</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/12_fr.png" alt="diapositive"></td>
+              <Td> Quelques exemples de réalité virtuelle. Peux-tu trouver des choses similaires dans ces exemples?</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/13_fr.png" alt="diapositive"></td>
+              <td> Nous créerons des projets avec le logiciel et des blocs de programmation. Toutefois, nous en ferons l'expérience à l'aide d’une visionneuse (ou d’un casque) de réalité virtuelle. Si nous ne regardons pas notre monde virtuel dans la visionneuse, nous n'aurons pas l'expérience d’immersion optimale.</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/14_fr.png" alt="diapositive"></td>
+              <Td> La réalité virtuelle et la réalité augmentée ne sont pas la même chose. Peux-tu me donner un exemple de réalité augmentée que tu utilises dans la vie de tous les jours?</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/15_fr.png" alt="diapositive"></td>
+              <td> (Écoutez 2-3 réponses)</td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/16_fr.png" alt="diapositive"></td>
+              <td>
+              <br><br>
+              </td>
+            </tr>
+          </table>
+
+        <br>
+
+        ##Remue-méninges
+
+        * Pour cette activité, assurez-vous d’avoir du papier et des crayons pour tous les apprenants.
+
+        <table style="font-size:2rem;">
+            <tr>
+              <tr>
+                <td><img src="framework/img/workshop/slides/17_fr.png" alt="diapositive"></td>
+                <td>À quoi dois-tu penser avant de commencer à créer ton prototype de réalité virtuelle? Écoutez quelques idées.</td>
+              </tr><tr>
+                <td><img src="framework/img/workshop/slides/18_fr.png" alt="diapositive"></td>
+                <td>Assurez-vous que tous les apprenants ont du papier et un crayon.
+                <br>
+                <br>
+                Mentionnez que les sons et les odeurs devront être représentés visuellement. Nous ne pourrons que voir des choses dans notre monde aujourd’hui.
+                </td>
+              </tr>
+
+        </table>
+
+
+        <br>
+
+        ##Programmation en groupe
+
+        * Vérifiez si vous avez créé une classe dans le compte CoSpaces et si vous avez effacé tous les anciens élèves de la classe.
+        * Préparez-vous à donner votre code de classe aux élèves. Vous pouvez consulter votre code de classe en allant dans <strong>My Classes</strong>, en sélectionnant votre classe et en regardant dans le coin droit de l’écran.
+        * Afin que les élèves puissent s’inscrire, montrez le code de classe aux élèves à l’écran ou écrivez-le au tableau.
+        * Pour faciliter l’inscription, invitez les élèves à créer un nom d’utilisateur en suivant un format et choisissez un mot de passe simple pour tous (123456). Par exemple, les identifiants pourraient suivre le format prénom-ville-année ou prénom-école-année.
+        * Pendant la séance de programmation en groupe, vous avez deux options. La première est d’ouvrir un nouvel onglet dans lequel vous créerez votre environnement CoSpaces. Vous pourrez donc lire chaque étape dans les diapositives et créer votre environnement graduellement.
+        * La deuxième option est d’utiliser les diapositives comme référence pendant que vous enseignez directement dans votre projet CoSpaces. Ainsi, les participants pourront voir les fonctionnalités en action et apprendre des trucs.
+        * N’oubliez pas de cliquer sur « Play » (l’icône en haut dans le coin droit) pour afficher votre projet et vérifier sa progression pendant que vous travaillez.
+        * Quand vous n’êtes plus en mode « Play », cliquez sur la caméra et montrez le champ de vue. Faites comprendre aux élèves que pour voir les objets au moment où nous cliquons sur « Play », les objets doivent être dans le champ de vue ou devant la caméra. Vous pouvez cliquer sur « Play » pour vérifier la position de vos objets.
+
+
+        ###Diapositives de l’activité de création en groupe
+
+        <table style="font-size:2rem;">
+            <tr>
+
+              <tr>
+                <td><img src="framework/img/workshop/slides/19_fr.png" alt="diapositive"></td>
+                <td> Dites aux élèves de créer des comptes et de s’inscrire à votre classe. Affichez le code de classe à un endroit visible, comme l’écran ou le tableau blanc.
+                <br>
+                <br>
+                *Vous devrez créer une classe d'avance pour avoir un code. Ce code servira aux élèves lorsqu’ils s‘inscriront. Dans le menu « My Classes », il y a un bouton pour créer une classe.
+                </td>
+              </tr><tr>
+                <td><img src="framework/img/workshop/slides/20_fr.png" alt="diapositive"></td>
+                <td> ***Choisissez l’option « 3D Environment », pas « 360° Image ».
+                  <br>
+                  <br>
+                  Montrez à la classe comment sélectionner un environnement avec les préréglages. Avant de les laisser choisir un environnement eux-mêmes, montrez-leur comment ajouter un personnage. Ils feront les deux étapes en même temps. </td>
+              </tr><tr>
+                <td><img src="framework/img/workshop/slides/21_fr.png" alt="diapositive"></td>
+                <td> Montrez-leur à quoi ressemblent les options de contrôle par le mouvement dans votre projet.
+                  <br>
+                  <br>
+                  Pour zoomer, cliquez et glissez le curseur de la souris en enfonçant la touche Espace.
+                  ***Vous pouvez faire défiler le projet avec une souris ou avec deux doigts sur le pavé tactile.
+                </td>
+              </tr><tr>
+                <td><img src="framework/img/workshop/slides/22_fr.png" alt="diapositive"></td>
+                <td> Montrez comment choisir et personnaliser un personnage. Le menu accessible en faisant un clic gauche vous permettra de déplacer et de redimensionner votre personnage. Prenez un petit instant pour montrer chaque fonction au groupe. N’oubliez pas de montrer la différence entre un clic droit et un clic « normal ». Le menu accessible en faisant un clic droit offre des options de personnalisation. Montrez comment modifier quelques éléments dans l’option « Material ». Accordez au groupe au moins 5 minutes pour sélectionner un environnement et un personnage.
+                  <br><br>
+                *Il s'agit d'un excellent moment pour expliquer au groupe le champ de vue de la caméra. Si vous placez votre personnage à l'extérieur du champ de vue de la caméra, il ne s'affichera pas immédiatement lorsque vous appuierez sur « Play ».
+
+                </td>
+              </tr>
+              <tr>
+                <td><img src="framework/img/workshop/slides/23_fr.png" alt="diapositive"></td>
+                <td> Mentionnez aux apprenants que les objets téléversés ne peuvent pas être modifiés aussi facilement que les autres. Si vous changez les matériaux (« Material »), c'est-à-dire la couleur, l’objet n'aura qu’une seule couleur. Faites-en la démonstration.
+              </td>
+              </tr>
+              <tr>
+                <td><img src="framework/img/workshop/slides/24_fr.png" alt="diapositive"></td>
+                <td>Prenez quelques minutes pour montrer comment combiner deux ou trois objets préfabriqués (p. ex., des roches) pour créer de nouveaux objets.
+                <br><br>
+                Ensuite, montrez-leur comment créer quelque chose seulement avec des blocs de construction.
+                <br><br>
+                Attention! Il faut penser avant de grouper des objets. Assure-toi que tous les objets sont parfaitement à ton goût avant de les grouper. Change la couleur de tes objets (dans « Material ») AVANT de les grouper. Même si tu les retires du groupe, tu ne pourras PAS changer la couleur de tes objets par la suite!
+                <br>
+                <br>
+                Si tu n’es pas satisfait de ton groupe, tu peux revenir en arrière avec le bouton « Undo » et changer l’ordre de tes objets avant de les regrouper. L’ordre est important et dépend de ce que tu veux créer. Pour trouver l’ordre parfait, tu devras peut-être essayer plusieurs fois.
+                <br>
+                <br>
+                ***Avant le début de l'atelier, essayez de grouper deux objets vous-même pour pouvoir en faire la démonstration aux élèves.
+              </td>
+              </tr>
+
+        </table>
+
+        <br>
+        ##Séance de travail
+        * Accordez au groupe quelques minutes pour créer leur environnement de RV (35-45 minutes).
+        * Si possible, affichez une minuterie à l’écran afin que les élèves puissent voir le temps restant.
+        * Faites les étapes et laissez la diapositive à l’écran pour les élèves.
+        * Prenez le pouls de la classe toutes les 10 minutes pour voir si les élèves ont des questions. Demandez aux apprenants de partager leurs réponses et leurs trucs autant que possible.
+        * <strong>Très important</strong> - Pendant que les apprenants créent leurs espaces, vous devrez aller dans votre compte dans la section <strong>Manage Users</strong>. Dans cet écran, sélectionnez TOUS les élèves et allez dans <strong>Actions</strong>. Ensuite, sélectionnez <strong>Allow Sharing</strong>. En activant cette option, les élèves pourront créer des codes QR pour leurs démos.
+
+        <img src="framework/img/workshop/manageusers.png" alt="diapositive"><img src="framework/img/workshop/allowsharing.png" alt="diapositive">
+
+        * N’oubliez pas de réserver au moins 15 minutes pour les démonstrations. Il vous faudra 5 minutes pour expliquer aux apprenants comment préparer leur appareil et utiliser les visionneuses de réalité virtuelle et 5 minutes supplémentaires pour les essais.
+        Accordez aux apprenants 5 minutes pour essayer leurs créations. Ils auront donc un aperçu de leur projet et des modifications dans une visionneuse de réalité virtuelle. Ce processus leur sera très utile lorsqu'ils ajouteront du code à leurs projets durant les prochaines séances de travail. Ils pourront voir la différence entre leur projet dans la visionneuse de réalité virtuelle et sur l’écran d’ordinateur.
+
+
+        <table style="font-size:2rem;">
+            <tr>
+              <tr>
+                <td><img src="framework/img/workshop/slides/25_fr.png" alt="diapositive"></td>
+                <td>Accordez-leur quelques instants pour créer des mondes virtuels.
+                <br>
+                <br>
+                Pendant que les apprenants créent leurs mondes, modifiez les paramètres des comptes d’élèves afin d'activer l’option de partage des projets. * Consultez les diapositives ci-dessus pour obtenir les consignes.
+                </td>
+              </tr>
+              <tr>
+                <td><img src="framework/img/workshop/slides/26_fr.png" alt="diapositive"></td>
+                <td>
+
+                </td>
+              </tr>
+              <tr>
+                <td><img src="framework/img/workshop/slides/27_fr.png" alt="diapositive"></td>
+                <td>
+                Avant l’atelier, prenez le temps de lire les étapes de configuration des visionneuses de réalité virtuelle et d’utilisation des codes QR.
+                </td>
+              </tr>
+              <tr>
+                <td><img src="framework/img/workshop/slides/28_fr.png" alt="diapositive"></td>
+                <td>
+
+                </td>
+              </tr>
+              <tr>
+                <td><img src="framework/img/workshop/slides/29_fr.png" alt="diapositive"></td>
+                <td>
+
+                </td>
+              </tr>
+
+        </table>
+
+        <br>
+        ##Programmation en groupe
+
+        * Vous pouvez utiliser les diapositives comme guide pendant que vous enseignez directement dans votre projet CoSpaces.
+        * N’oubliez pas de mentionner l’emplacement des différentes fonctionnalités et comment utiliser les catégories pour trouver les différents types de blocs. Demandez aux apprenants quels sont les blocs à utiliser pour faire différentes actions.
+        * Montrez comment cliquer et faire glisser des blocs dans l'espace. Par exemple, montrez comment faire glisser des blocs dans la corbeille.
+        * Montrez comment les blocs s’emboîtent les uns dans les autres et comment les retirer.
+        * Assurez-vous de montrer aux apprenants comment lire (« Play ») leurs projets pour les essayer et voir le résultat de leur code. Idéalement, faites cela après chaque bloc pour montrer les effets de chaque changement.
+        * Pendant la programmation en groupe, laissez votre projet CoSpaces ouvert dans un autre onglet et ajoutez un ou deux blocs de chaque type (Transform, Action, Events, Control). Cliquez sur « Play » (l’icône de lecture) pour voir un aperçu du projet.
+        * Remarque à propos de la version gratuite de CoSpaces : Les options de programmation sont limitées dans la version gratuite. Non seulement il n’y a pas beaucoup de blocs, mais les blocs ne peuvent pas être exécutés parallèlement. Ainsi, les apprenants devront programmer leur projet comme une histoire linéaire. L’histoire commence par une action, celle-ci est suivie d’une autre action, et d’une autre, etc.
+        * Vérifiez si les visionneuses de réalité virtuelle ont un bouton pour cliquer sur des éléments pendant les expériences. S’il n’y a pas de bouton sur la visionneuse, le bloc d’événement (When this object is Clicked) ne fonctionnera PAS.
+
+
+        ###Diapositives pour l'activité de programmation en groupe
+
+        <table style="font-size:2rem;">
+            <tr>
+
+              <tr>
+                <td><img src="framework/img/workshop/slides/30_fr.png" alt="diapositive"></td>
+                <td>
+                </td>
+              </tr><tr>
+                <td><img src="framework/img/workshop/slides/31_fr.png" alt="diapositive"></td>
+                <td> Cette étape est très importante. Si vous ne la faites pas, il sera impossible d’ajouter du code. D'abord, montrez la procédure aux apprenants avec un objet ou un personnage. Ensuite, demandez aux apprenants de vous guider en faisant la même procédure avec un autre objet ou personnage.</td>
+              </tr><tr>
+                <td><img src="framework/img/workshop/slides/32_fr.png" alt="diapositive"></td>
+                <td>Montrez-leur comment ouvrir et fermer le menu de code et comment le rendre plus gros/petit.
+                  <br>
+                  <br>
+                  Montrez-leur comment cliquer et faire glisser les blocs dans l'espace de travail. Ensuite, montrez-leur comment faire glisser des blocs « indésirables » dans la corbeille à gauche de l’écran.
+                </td>
+              </tr><tr>
+                <td><img src="framework/img/workshop/slides/33_fr.png" alt="diapositive"></td>
+                <td> Faites bouger et tourner un objet ou un personnage!
+                  <br><br>
+                Mettez le projet en mode lecture (« Play ») pour essayer le code! Faites-le chaque fois que vous ajoutez un nouveau bloc de code pour montrer l'effet de chaque bloc.
+                  <br><br>
+                Lorsque vous montrez les différentes catégories et les blocs, demandez aux apprenants de vous aider à trouver les blocs appropriés pour faire une action en particulier (p. ex., faire bouger ou parler un personnage, ajouter un titre, répéter une action plusieurs fois, etc.).
+                </td>
+              </tr><tr>
+                <td><img src="framework/img/workshop/slides/34_fr.png" alt="diapositive"></td>
+                <td>Utilisez un bloc sur un objet pour le faire parler.
+                <br><br>
+                Montrez-leur aussi un bloc de titre.
+              </td>
+              </tr><tr>
+                <td><img src="framework/img/workshop/slides/35_fr.png" alt="diapositive"></td>
+                <td>Faites faire une action à un objet ou à un personnage lorsqu’il est cliqué.
+                <br>
+                <br>
+                Comme les apprenants devront cliquer sur un objet pour activer le code, n'affichez ce bloc que si les visionneuses de réalité virtuelle ont un bouton de clic. Sinon, le bloc ne fonctionnera pas.
+              </td>
+              </tr><tr>
+                <td><img src="framework/img/workshop/slides/36_fr.png" alt="diapositive"></td>
+                <td> Utilisez une boucle (« loop »)! Faites danser un personnage ou faites-lui faire une autre action en boucle!
+                <br>
+                <br>
+                Vous devrez peut-être utiliser des blocs d'attente au début du projet si vous souhaitez démarrer au moment où vous appuyez sur le bouton de lecture. Pensez-y bien. Lorsque vous aurez préparé la visionneuse, appuyez sur le bouton de lecture et sur l’icône de réalité virtuelle et mettez le téléphone dans la visionneuse. Cela prend du temps : vous manquerez donc peut-être quelques actions avant d'avoir bien préparé votre visionneuse.
+              </td>
+              </tr>
+
+        </table>
+
+        <br>
+        ##Séance de travail
+        * Accordez au groupe quelques minutes pour programmer un monde (45 minutes).
+        * Montrez les suggestions et laissez la diapositive à l’écran pour les élèves.
+        * N'hésitez pas à utiliser une minuterie à l’écran afin que les apprenants puissent gérer leur temps de travail.
+        * Prenez le pouls de la classe toutes les 10 minutes pour voir si les élèves ont des questions. Demandez aux apprenants de partager leurs réponses et leurs trucs autant que possible.
+        * Comme les élèves auront les visionneuses et sauront comment les utiliser, vous pouvez aussi faire des démos pendant cette période. Pendant qu’ils font des modifications au code, les élèves peuvent regarder le résultat des changements dans la visionneuse. Accordez au groupe environ 15 minutes pour partager leurs visionneuses avec d’autres élèves et essayer les projets des autres.
+
+        <table style="font-size:2rem;">
+            <tr>
+              <tr>
+                <td><img src="framework/img/workshop/slides/37_fr.png" alt="diapositive"></td>
+                <td> </td>
+              </tr><tr>
+                <td><img src="framework/img/workshop/slides/38_fr.png" alt="diapositive"></td>
+                <td>Donnez-leur du temps pour programmer leurs mondes virtuels.</td>
+              </tr>
+
+        </table>
+        <br>
+
+        ##Activité hors ligne (facultatif)
+
+        Si le groupe a besoin d’une pause, accordez aux apprenants 10 minutes pour aller aux toilettes, boire de l'eau ou manger une collection. Vous avez aussi l’option de faire une activité hors ligne au milieu de l'atelier afin que les élèves puissent se dégourdir les jambes. Les activités hors ligne durent environ 10 minutes. Choisissez une activité hors ligne dans la <a href="https://docs.google.com/document/d/1tUTiHl7scs8RHdLLvdmZTFtD9EuAyZhetTLFgvar5CQ/edit?usp=sharing">liste d'activités</a>. Activité recommandée : Le robot.
+       </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        #Notes de la formatrice (atelier pour les 6 à 8 ans)
+
+        #Jeunesse en programmation : La réalité virtuelle avec CoSpaces
+
+        <br>
+        ##Utiliser CoSpaces
+
+        CoSpaces Edu est une plateforme pédagogique permettant aux élèves et aux enseignantes de créer des environnements 3D qu'ils pourront animer avec du code (des blocs de programmation) et explorer avec la technologie de réalité virtuelle ou de réalité augmentée. Durant cet atelier, vos projets seront sauvegardés en ligne à l'adresse <a href="https://cospaces.io/edu/">cospaces.io/edu</a>.
+
+        <br>
+        ##Créer un compte pour enseignant dans CoSpaces
+
+        Vous devrez créer un compte pour enseignant qui sera propre à votre section ou à votre Code Mobile. Allez à l'adresse <a href="https://cospaces.io/edu/">cospaces.io/edu</a>.
+
+        <img src="framework/img/workshop/home-page.png" alt="diapositive">
+
+        Créez un compte pour enseignant et suivez les étapes à l’écran (vous pouvez aussi vous connecter avec Google à l'aide de l’adresse de courriel de votre section ou de la Code Mobile).
+
+        **S’il y a déjà un compte créé pour votre section ou votre Code Mobile, il vous suffit de vous connecter avec les bons identifiants.
+
+        <br>
+        ##Effacer les anciens élèves
+        Assurez-vous d’effacer les anciens élèves de votre compte pour enseignant avant chaque atelier, car les comptes gratuits n'acceptent qu’un maximum de 30 utilisateurs. Lorsque vous aurez réussi à vous connecter à votre compte CoSpaces, allez dans <strong>Manage Users</strong>. Vous devrez sélectionner tous les élèves avec la case en haut, puis aller dans <strong>Actions</strong> et sélectionner <strong>Remove from License Plan</strong>.
+
+        <img src="framework/img/workshop/removestudents.png" alt="diapositive">
+
+        <br>
+        ##Premiers pas avec CoSpaces
+        Consultez les diapositives et les notes et assurez-vous d’être à l’aise avec l’interface de CoSpaces. S’il n’y a pas encore de projet dans la section <strong>My CoSpaces</strong> de votre compte pour enseignant, prenez quelques instants pour créer un petit espace et ajouter des personnages et des objets.
+
+        <img src="framework/img/workshop/simplespace.png" alt="diapositive">
+
+        Vous ne pouvez qu'avoir un seul « espace » ou projet à la fois. Toutefois, chaque espace peut contenir plusieurs scènes. Si vous avez déjà créé un espace ou un projet, vous pouvez y ajouter une nouvelle scène. Pour ce faire, ouvrez le projet et cliquez sur l’icône de scène en haut à gauche de l’écran. Lorsque vous aurez cliqué sur cette icône, vous pourrez ajouter une nouvelle scène en bas.
+
+        <img src="framework/img/workshop/sceneicon.png" alt="diapositive">
+
+        <img src="framework/img/workshop/newscene.png" alt="diapositive">
+
+        <br>
+        ##Configurer une classe dans CoSpaces
+        Vous devrez aussi créer une classe pour vos élèves. Allez dans <strong>My Classes</strong> et créez une classe.
+
+        <img src="framework/img/workshop/createclass.png" alt="diapositive">
+
+        Un code de classe s'affichera. Notez-le bien, car vous devrez le fournir aux élèves lorsqu’ils se connecteront à CoSpaces. Vous pourrez le consulter de nouveau en sélectionnant la classe; le code de la classe s'affichera à droite de l’écran.
+
+        <img src="framework/img/workshop/classcode.png" alt="diapositive">
+
+        Si vous avez déjà créé une classe, assurez-vous qu’il n’y a pas d’élèves inscrits en sélectionnant <strong>Students</strong>. La classe devrait afficher un message indiquant qu’il n’y a pas encore d’élève inscrit. *S’il y a encore des élèves, effacez les anciens élèves en suivant les consignes précédentes.
+
+        <img src="framework/img/workshop/nostudents.png" alt="diapositive">
+
+        <br>
+        ##Configurer et utiliser les visionneuses de réalité virtuelle
+
+        Lisez bien les diapositives 27 à 29 pour configurer les visionneuses de réalité virtuelle convenablement. Durant la rencontre avec les mentores, faites le processus de préparation des visionneuses et des projets avec elles. Il est essentiel que tout le monde soit à l'aise avec le processus afin que les démos se passent bien. Les apprenants partageront des visionneuses de RV pendant les démos. Les mentores aideront les apprenants à utiliser les visionneuses et les codes QR pour trouver les projets afin d’optimiser le temps requis pour les démos.
+
+        Si vous utilisez d'autres visionneuses de réalité virtuelle que celles des sections et des Code Mobiles (par exemple, si un apprenant apporte la sienne), n’oubliez pas que les visionneuses et les casques de réalité virtuelle ne fonctionnent pas tous de la même façon. Si les autres visionneuses n’ont pas de bouton « clic », elles ne pourront fonctionner complètement avec les projets réalisés durant l'atelier.
+
+        <strong>Important</strong> - Les visionneuses de réalité virtuelle peuvent causer des nausées. Si les apprenants éprouvent un malaise durant le processus, dites-leur de faire une démonstration de leur projet sans la visionneuse et le mode d’écran divisé. Sélectionnez l’icône dans le cercle bleu et faites bouger le téléphone.
+
+
+        <img src="framework/img/workshop/notvricon.png" alt="diapositive">
+
+        <strong>Important</strong> - Si vous avez des problèmes avec les projets des élèves, demandez-leur de se reconnecter et de retourner dans leurs projets. Cette procédure règle la plupart des problèmes. Il est possible que vous deviez vous reconnecter plusieurs fois.
+
+        <br>
+        ##Ordre du jour
+
+        ![Icône intro](framework/img/workshop/intro-icon2.png) Présentation (30 min)
+
+        ![Icône code](framework/img/workshop/code-icon2.png) Programmation en groupe (30 minutes)
+
+        ![Icône ordinateur](framework/img/workshop/laptop-icon2.png) Séance de travail et démonstrations (60 minutes)
+
+        <br>
+        ###Diapositives d’introduction
+
+        <table style="font-size:2rem;">
+            <tr>
+              <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Diapositive</strong></td>
+              <td><strong style="background:#00a076; color:white; font-size:3.2rem;">Notes</strong></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/3_fr.png" alt="diapositive"></td>
+              <td> Maintenant, j'aimerais vous présenter des personnes indispensables à l'atelier : les mentores!
+              <br>
+              <i>Demandez aux mentores de venir vous rejoindre à l'avant de la classe. Elles pourront se présenter en disant leur nom et leur site ou jeu préféré.</i>
+              <br><br>
+              Les mentores seront là pour t’aider si tu as des problèmes. N'hésite pas à leur poser des questions ou à leur montrer ton super projet! </td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/5_fr.png" alt="diapositive"></td>
+              <td> Les apprenants créeront des mondes de réalité virtuelle et les regarderont dans les visionneuses. Ensuite, ils ajouteront du code à leurs projets et les essaieront encore.</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/6_fr.png" alt="diapositive"></td>
+              <td>
+                <ol>
+                    <li><strong>Demande de l'aide</strong> : Si tu as de la difficulté, travaille avec la personne à côté de toi ou lève la main pour demander à l'enseignante ou à une des mentores de t’aider.
+                    <li><strong>Sois présent</strong> : Nous aimerions que tu apprennes beaucoup de choses pendant l'atelier. C’est pourquoi nous voulons que tu respectes les consignes et que tu suives pendant les activités.
+                    <li><strong>Fais de ton mieux</strong> : Même les meilleurs programmeurs ont parfois de la difficulté. Nous ne nous attendons pas à ce que tout soit parfait. Tu n'as qu’à faire de ton mieux. Tu ne dois pas avoir peur d'essayer des choses et de faire des erreurs!</td>
+                  </ol>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/7_fr.png" alt="diapositive"></td>
+              <td> (Écoutez 2-3 réponses)</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/8_fr.png" alt="diapositive"></td>
+              <td> (Le moment idéal pour faire l'activité hors ligne « Le robot ».)</td>
+            </tr>
+
+            <tr>
+              <td><img src="framework/img/workshop/slides/9_fr.png" alt="diapositive"></td>
+              <td> Qui a déjà entendu parler de CoSpaces ou qui l'a déjà utilisé?</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/10_fr.png" alt="diapositive"></td>
+              <td> Aujourd’hui, nous créerons un monde de réalité virtuelle. Voici un exemple d’un monde que tu pourrais créer!</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/11_fr.png" alt="diapositive"></td>
+              <td> (Écoutez 2-3 réponses)</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/12_fr.png" alt="diapositive"></td>
+              <Td> Quelques exemples de réalité virtuelle. Peux-tu trouver des choses similaires dans ces exemples?</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/13_fr.png" alt="diapositive"></td>
+              <td> Nous créerons des projets avec le logiciel et des blocs de programmation. Toutefois, nous en ferons l'expérience à l'aide d’une visionneuse (ou d’un casque) de réalité virtuelle. Si nous ne regardons pas notre monde virtuel dans la visionneuse, nous n'aurons pas l'expérience d’immersion optimale.</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/14_fr.png" alt="diapositive"></td>
+              <Td> La réalité virtuelle et la réalité augmentée ne sont pas la même chose. Peux-tu me donner un exemple de réalité augmentée que tu utilises dans la vie de tous les jours?</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/15_fr.png" alt="diapositive"></td>
+              <td> (Écoutez 2-3 réponses)</td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/16_fr.png" alt="diapositive"></td>
+              <td>
+              <br><br>
+              </td>
+            </tr>
+          </table>
+
+        <br>
+
+        ##Remue-méninges
+
+        * Pour cette activité, assurez-vous d’avoir du papier et des crayons pour tous les apprenants.
+
+        <table style="font-size:2rem;">
+            <tr>
+              <tr>
+                <td><img src="framework/img/workshop/slides/17_fr.png" alt="diapositive"></td>
+                <td>À quoi dois-tu penser avant de commencer à créer ton prototype de réalité virtuelle? Écoutez quelques idées.</td>
+              </tr><tr>
+                <td><img src="framework/img/workshop/slides/18_fr.png" alt="diapositive"></td>
+                <td>Assurez-vous que tous les apprenants ont du papier et un crayon.
+                <br>
+                <br>
+                Mentionnez que les sons et les odeurs devront être représentés visuellement. Nous ne pourrons que voir des choses dans notre monde aujourd’hui.
+                </td>
+              </tr>
+
+        </table>
+
+
+        <br>
+
+        ##Programmation en groupe
+
+        * Vérifiez si vous avez créé une classe dans le compte CoSpaces et si vous avez effacé tous les anciens élèves de la classe.
+        * Préparez-vous à donner votre code de classe aux élèves. Vous pouvez consulter votre code de classe en allant dans <strong>My Classes</strong>, en sélectionnant votre classe et en regardant dans le coin droit de l’écran.
+        * Afin que les élèves puissent s’inscrire, montrez le code de classe aux élèves à l’écran ou écrivez-le au tableau.
+        * Pour faciliter l’inscription, invitez les élèves à créer un nom d’utilisateur en suivant un format et choisissez un mot de passe simple pour tous (123456). Par exemple, les identifiants pourraient suivre le format prénom-ville-année ou prénom-école-année.
+        * Pendant la séance de programmation en groupe, vous avez deux options. La première est d’ouvrir un nouvel onglet dans lequel vous créerez votre environnement CoSpaces. Vous pourrez donc lire chaque étape dans les diapositives et créer votre environnement graduellement.
+        * La deuxième option est d’utiliser les diapositives comme référence pendant que vous enseignez directement dans votre projet CoSpaces. Ainsi, les apprenants pourront voir les fonctionnalités en action et apprendre des trucs.
+        * N’oubliez pas de cliquer sur « Play » (l’icône en haut dans le coin droit) pour afficher votre projet et vérifier sa progression pendant que vous travaillez.
+        * Quand vous n’êtes plus en mode « Play », cliquez sur la caméra et montrez le champ de vue. Faites comprendre aux élèves que pour voir les objets au moment où nous cliquons sur « Play », les objets doivent être dans le champ de vue ou devant la caméra. Vous pouvez cliquer sur « Play » pour vérifier la position de vos objets.
+
+
+        ###Diapositives de l’activité de création en groupe
+
+        <table style="font-size:2rem;">
+            <tr>
+
+              <tr>
+                <td><img src="framework/img/workshop/slides/19_fr.png" alt="diapositive"></td>
+                <td> Dites aux élèves de créer des comptes et de s’inscrire à votre classe. Affichez le code de classe à un endroit visible, comme l’écran ou le tableau blanc.
+                <br>
+                <br>
+                *Vous devrez créer une classe d'avance pour avoir un code. Ce code servira aux élèves lorsqu’ils s‘inscriront. Dans le menu « My Classes », il y a un bouton pour créer une classe.
+                </td>
+              </tr><tr>
+                <td><img src="framework/img/workshop/slides/20_fr.png" alt="diapositive"></td>
+                <td> ***Choisissez l’option « 3D Environment », pas « 360° Image ».
+                  <br>
+                  <br>
+                  Montrez à la classe comment sélectionner un environnement avec les préréglages. Avant de les laisser choisir un environnement eux-mêmes, montrez-leur comment ajouter un personnage. Ils feront les deux étapes en même temps. </td>
+              </tr><tr>
+                <td><img src="framework/img/workshop/slides/21b_fr.png" alt="diapositive"></td>
+                <td> Montrez-leur à quoi ressemblent les options de contrôle par le mouvement dans votre projet.
+                  <br>
+                  <br>
+                  Pour zoomer, cliquez et glissez le curseur de la souris en enfonçant la touche Espace.
+                  ***Vous pouvez faire défiler le projet avec une souris ou avec deux doigts sur le pavé tactile.
+                </td>
+              </tr><tr>
+                <td><img src="framework/img/workshop/slides/22_fr.png" alt="diapositive"></td>
+                <td> Montrez comment choisir et personnaliser un personnage. Le menu accessible en faisant un clic gauche vous permettra de déplacer et de redimensionner votre personnage. Prenez un petit instant pour montrer chaque fonction au groupe. N’oubliez pas de montrer la différence entre un clic droit et un clic « normal ». Le menu accessible en faisant un clic droit offre des options de personnalisation. Montrez comment modifier quelques éléments dans l’option « Material ». Accordez au groupe au moins 5 minutes pour sélectionner un environnement et un personnage.
+                  <br><br>
+                *Il s'agit d'un excellent moment pour expliquer au groupe le champ de vue de la caméra. Si vous placez votre personnage à l'extérieur du champ de vue de la caméra, il ne s'affichera pas immédiatement lorsque vous appuierez sur « Play ».
+
+                </td>
+              </tr>
+              <tr>
+                <td><img src="framework/img/workshop/slides/23_fr.png" alt="diapositive"></td>
+                <td> Mentionnez aux apprenants que les objets téléversés ne peuvent pas être modifiés aussi facilement que les autres. Si vous changez les matériaux (« Material »), c'est-à-dire la couleur, l’objet n'aura qu’une seule couleur. Faites-en la démonstration.
+              </td>
+              </tr>
+        </table>
+
+        <br>
+        ##Séance de travail
+        * Accordez au groupe quelques minutes pour créer leur environnement de RV (35-45 minutes).
+        * Si possible, affichez une minuterie à l’écran afin que les élèves puissent voir le temps restant.
+        * Faites les étapes et laissez la diapositive à l’écran pour les élèves.
+        * Prenez le pouls de la classe toutes les 10 minutes pour voir si les élèves ont des questions. Demandez aux apprenants de partager leurs réponses et leurs trucs autant que possible.
+        * <strong>Très important</strong> - Pendant que les apprenants créent leurs espaces, vous devrez aller dans votre compte dans la section <strong>Manage Users</strong>. Dans cet écran, sélectionnez TOUS les élèves et allez dans <strong>Actions</strong>. Ensuite, sélectionnez <strong>Allow Sharing</strong>. En activant cette option, les élèves pourront créer des codes QR pour leurs démos.
+
+        <img src="framework/img/workshop/manageusers.png" alt="diapositive"><img src="framework/img/workshop/allowsharing.png" alt="diapositive">
+
+        * N’oubliez pas de réserver au moins 15 minutes pour les démonstrations. Il vous faudra 5 minutes pour expliquer aux apprenants comment préparer leur appareil et utiliser les visionneuses de réalité virtuelle et 5 minutes supplémentaires pour les essais.
+        Accordez aux apprenants 5 minutes pour essayer leurs créations. Ils auront donc un aperçu de leur projet et des modifications dans une visionneuse de réalité virtuelle. Ce processus leur sera très utile lorsqu'ils ajouteront du code à leurs projets durant les prochaines séances de travail. Ils pourront voir la différence entre leur projet dans la visionneuse de réalité virtuelle et sur l’écran d’ordinateur.
+
+
+        <table style="font-size:2rem;">
+            <tr>
+              <tr>
+                <td><img src="framework/img/workshop/slides/25_fr.png" alt="diapositive"></td>
+                <td>Accordez-leur quelques instants pour créer des mondes virtuels.
+                <br>
+                <br>
+                Pendant que les apprenants créent leurs mondes, modifiez les paramètres des comptes d’élèves afin d'activer l’option de partage des projets. * Consultez les diapositives ci-dessus pour obtenir les consignes.
+                </td>
+              </tr>
+              <tr>
+                <td><img src="framework/img/workshop/slides/24_fr.png" alt="diapositive"></td>
+                <td>**Prolongement :** Si vous en avez le temps, montrez-leur comment combiner deux ou trois objets préfabriqués (p. ex., des roches) pour créer de nouveaux objets.
+                <br><br>
+                Ensuite, montrez-leur comment créer quelque chose seulement avec des blocs de construction.
+                <br><br>
+                Attention! Il faut penser avant de grouper des objets. Assure-toi que tous les objets sont parfaitement à ton goût avant de les grouper. Change la couleur de tes objets (dans « Material ») AVANT de les grouper. Même si tu les retires du groupe, tu ne pourras PAS changer la couleur de tes objets par la suite!
+                <br>
+                <br>
+                Si tu n’es pas satisfait de ton groupe, tu peux revenir en arrière avec le bouton « Undo » et changer l’ordre de tes objets avant de les regrouper. L’ordre est important et dépend de ce que tu veux créer. Pour trouver l’ordre parfait, tu devras peut-être essayer plusieurs fois.
+                <br>
+                <br>
+                ***Avant le début de l'atelier, essayez de grouper deux objets vous-même pour pouvoir en faire la démonstration aux élèves.
+              </td>
+              </tr>
+              <tr>
+                <td><img src="framework/img/workshop/slides/39_fr.png" alt="diapositive"></td>
+                <td>
+
+                </td>
+              </tr>
+              <tr>
+                <td><img src="framework/img/workshop/slides/27_fr.png" alt="diapositive"></td>
+                <td>
+                Avant l’atelier, prenez le temps de lire les étapes de configuration des visionneuses de réalité virtuelle et d’utilisation des codes QR.
+                </td>
+              </tr>
+              <tr>
+                <td><img src="framework/img/workshop/slides/28_fr.png" alt="diapositive"></td>
+                <td>
+
+                </td>
+              </tr>
+              <tr>
+                <td><img src="framework/img/workshop/slides/29_fr.png" alt="diapositive"></td>
+                <td>
+
+                </td>
+              </tr>
+
+        </table>
+
+        <br>
+
+        ##Activité hors ligne (facultatif)
+
+        Si le groupe a besoin d’une pause, accordez aux apprenants 10 minutes pour aller aux toilettes, boire de l'eau ou manger une collection. Vous avez aussi l’option de faire une activité hors ligne au milieu de l'atelier afin que les élèves puissent se dégourdir les jambes. Les activités hors ligne durent environ 10 minutes. Choisissez une activité hors ligne dans la <a href="https://docs.google.com/document/d/1tUTiHl7scs8RHdLLvdmZTFtD9EuAyZhetTLFgvar5CQ/edit?usp=sharing">liste d'activités</a>. Activité recommandée : Le robot.
+       </script>
+    </section>
+
+
+  </main><!-- Section principale cls -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Enlevez les commentaires des modules dont vous avez besoin -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Regroupe tous les éléments .snippet
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
